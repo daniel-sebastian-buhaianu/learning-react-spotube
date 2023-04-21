@@ -1,0 +1,48 @@
+.search-box {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-box input {
+    width: 100%;
+    border: 1px solid #d3f9b5;
+    border-right: none;
+    border-radius: 1rem 0 0 1rem;
+    background: transparent;
+    color: #d3f9b5;
+    padding: 1rem;
+    font-size: 1rem;;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-box .search-btn {
+    border: 1px solid;
+    border-color: #d3f9b5;
+    border-radius: 0 1rem 1rem 0;
+    background: #d3f9b5;
+    padding: 1rem;
+    outline: none;
+}
+
+.search-box .search-btn:hover {
+    background: #d2f9b5d5;
+    border-color: #d2f9b5d5;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.search-btn .search-icon {
+    color: #3d0c11;
+}
+
+/*    THEME COLORS:
+#000000 - Black
+#3d0c11 - Black bean
+#bf6900 - Tiger's Eye
+#ddfc74 - Mindaro
+#d3f9b5 - Tea green
+*/
